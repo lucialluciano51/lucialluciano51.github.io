@@ -1,0 +1,216 @@
+/* Imports - fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+
+/* remove margin from everything */
+* {
+    margin: 0px;
+}
+
+/* Fonts */
+* {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* body */
+body {
+    background-color: #3ca3c81b;
+}
+
+/* Header */
+.header {
+    background-color: #10559A;
+    padding: 12px 24px 0px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.header h1 {
+    color: white;
+}
+
+.header h2 {
+    color: #6cd1f6;
+    font-family: "Cookie", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* header spacing */
+.header-spacing {
+    margin-top: 24px;
+    width: 100%;
+    display: block;
+}
+
+/* Header flower */
+.flower {
+    position: absolute;
+    transform: scale(.6) rotate(253deg);
+    top: -229px;
+    right: 0px;
+}
+
+.flower path {
+    fill: #3CA2C8;
+}
+
+/* Main nav bar */
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10559A;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.main-nav li a:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 3px solid lightcyan;
+}
+
+/* Subnav */
+.subnav {
+    position: sticky;
+    top: 0px;
+}
+
+.subnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9C6D7;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.subnav li {
+    float: left;
+}
+
+.subnav li span {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+li span:hover {
+    border-bottom: 3px solid #DB4C77;
+    color: #DB4C77;
+    ;
+}
+
+/* Sections */
+section {
+    padding: 24px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section>div {
+    width: 100%;
+}
+
+/* Section header */
+section>div>h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+section h3 {
+    margin: 6px 0px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+/* divider */
+section .divider {
+    border-bottom: 1px solid;
+    width: 100%;
+    display: block;
+    margin: 12px 0px;
+}
+
+/* Interests - Baking */
+.baked-item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    border-bottom: solid 1px black;
+    padding-bottom: 12px;
+}
+
+.baked-picture {
+    flex: 1;
+    justify-content: center;
+    display: flex
+;
+}
+
+.baked-description {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.baked-description > div {
+    width: 70%;
+}
+
+.baked-picture > img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.cake-grid {
+    display: grid;
+    gap: 12px;
+}
+
+.baked-item h3 {
+    margin: 0px;
+}
+
+/* Reading */
+.book-author {
+    font-style: italic;
+}
