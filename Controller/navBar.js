@@ -16,7 +16,11 @@ $(document).ready(function () {
     });
 
     // Register click to open and close nav
-    $('.burger-icon').on('click', function () {
+    $('.burger-icon > span').on('click', function () {
         $('.main-nav ul').slideToggle();
+    });
+
+    $(window).on('scroll', function(){
+        $('.main-nav ul').slideUp();
     });
 });
