@@ -111,7 +111,7 @@ section .divider {
     gap: 12px;
     background-color: #3CA2C8;
     border-radius: 5px;
-    height: 200px !important;
+    height: 250px !important;
     margin: 0px 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
