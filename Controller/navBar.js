@@ -20,7 +20,4 @@ $(document).ready(function () {
         $('.main-nav ul').slideToggle();
     });
 
-    $(window).on('scroll', function(){
-        $('.main-nav ul').slideUp();
-    });
 });

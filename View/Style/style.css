@@ -109,7 +109,7 @@ section .divider {
     display: flex !important;
     flex-direction: row;
     gap: 12px;
-    background-color: #3CA2C8;
+    background-color: #3ca3c81b;
     border-radius: 5px;
     height: 250px !important;
     margin: 0px 12px;
